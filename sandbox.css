@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  font-family: "Inter", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+body {
+  padding: 32px;
+  border: 1px black solid;
+}
+.logo {
+  width: 40px;
+  background-color: aqua;
+}
+.lady {
+  width: 60%;
+  background-color: blueviolet;
+}
+.first {
+  display: block;
+}
+.second {
+  display: inline;
+}
+.third {
+  display: inline-block;
+}
+.fourth {
+  display: flex;
+}
+.left40 {
+  width: 40%;
+}
+
+header {
+  border: 1px black solid;
+  width: 100%;
+  max-width: 1280px;
+}
+.container {
+  height: 100vh;
+  padding: 80px 0;
+}
+.row {
+  display: flex;
+
+  width: 100%;
+  max-width: 1280px;
+}
+
+.header__text {
+  border: 1px black solid;
+  width: 40%;
+}
+.header__text--para {
+        font-size: 18px;
+        margin: 32px 0;
+        border: 1px red solid;
+}
+.header__text--img-caption {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: .05em;
+  color: rgb(160, 174, 192);
+}
+.header__text--img {
+  margin-top: 16px;
+  padding-right: 128px;
+  width: 100%;
+  opacity: .5;
+}
+.header__image {
+  width: 60%;
+}
+.header__text--wrapper {
+  border: 1px pink solid;
+  margin-top: 80px;
+
+}
+
+.header__cta {
+    /* border: 1px blue solid; */
+    position: relative;
+    max-width: 448px;
+}
+.header__cta--input {
+
+    padding: 20px 192px 20px 32px;
+    width: 100%;
+    border-radius: 9999px;
+    /* border: 2px solid rgb(226, 232, 240); */
+    border: 1px black solid;
+    font-weight: 500;
+    /* not including xform details in source css for now */
+}
+.header__cta--btn {
+  position: absolute;
+  margin: 8px 8px 8px 0;
+  width: 160px;
+  line-height: 1;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  background-color: rgb(100, 21, 255);
+  padding-top: 16px;
+  padding-bottom: 16px;
+  font-weight: 700;
+  color: rgb(247, 250, 252);
+  cursor: pointer;
+  appearance: button;
+
+}
