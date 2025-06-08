@@ -142,9 +142,10 @@ header {
 
 .features__spacer{
   margin-top: 40px;
-  width: 100%;
+  width: 80%;
     display: flex;
   flex-wrap: wrap;
+  margin: 0 auto;
 }
 .features__col--wrapper {
   width: calc(100%/3);
