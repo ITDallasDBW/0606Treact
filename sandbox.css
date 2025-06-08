@@ -57,21 +57,21 @@ header {
   width: 40%;
 }
 .header__text--para {
-        font-size: 18px;
-        margin: 32px 0;
-        border: 1px red solid;
+  font-size: 18px;
+  margin: 32px 0;
+  border: 1px red solid;
 }
 .header__text--img-caption {
   font-size: 12px;
   font-weight: 700;
-  letter-spacing: .05em;
+  letter-spacing: 0.05em;
   color: rgb(160, 174, 192);
 }
 .header__text--img {
   margin-top: 16px;
   padding-right: 128px;
   width: 100%;
-  opacity: .5;
+  opacity: 0.5;
 }
 .header__image {
   width: 60%;
@@ -79,23 +79,21 @@ header {
 .header__text--wrapper {
   border: 1px pink solid;
   margin-top: 80px;
-
 }
 
 .header__cta {
-    /* border: 1px blue solid; */
-    position: relative;
-    max-width: 448px;
+  /* border: 1px blue solid; */
+  position: relative;
+  max-width: 448px;
 }
 .header__cta--input {
-
-    padding: 20px 192px 20px 32px;
-    width: 100%;
-    border-radius: 9999px;
-    /* border: 2px solid rgb(226, 232, 240); */
-    border: 1px black solid;
-    font-weight: 500;
-    /* not including xform details in source css for now */
+  padding: 20px 192px 20px 32px;
+  width: 100%;
+  border-radius: 9999px;
+  /* border: 2px solid rgb(226, 232, 240); */
+  border: 1px black solid;
+  font-weight: 500;
+  /* not including xform details in source css for now */
 }
 .header__cta--btn {
   position: absolute;
@@ -116,5 +114,14 @@ header {
   color: rgb(247, 250, 252);
   cursor: pointer;
   appearance: button;
-
 }
+
+.img__contain {
+  border: 1px solid blue;
+  /* height: 24px;
+  width: 24px; */
+  padding: 16px;
+  border-radius: 9999px;
+}
+
+
