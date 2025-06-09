@@ -12,6 +12,15 @@ body {
   padding: 32px;
   border: 1px black solid;
 }
+h5 {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: rgb(100, 21, 255);
+}
+.text__purple {
+  color: #6415ff;
+}
 .logo {
   width: 40px;
   background-color: aqua;
@@ -42,8 +51,8 @@ header {
   max-width: 1280px;
 }
 .container {
-  height: 100vh;
-  padding: 80px 0;
+  /* height: 100vh; */
+  /* padding: 80px 0; */
 }
 .row {
   display: flex;
@@ -160,7 +169,6 @@ header {
 }
 .features__img--wrapper {
   display: block;
-  vertical-align: middle;
 }
 .features__img {
   border: 1px solid red;
@@ -185,5 +193,40 @@ header {
     color: rgb(124 139 161);
 }
 
+/* START QUALITY */
 
+.section__subtitle {
+  width: 100%;
+  font-size: 48px;
+  font-weight: 900;
+  letter-spacing: 0.025em;
+  margin-bottom: 16px;
+}
+.quality__wrapper {
+  border: 3px solid black;
+  margin: 96px auto;
+}
 
+.split {
+  width: 50%;
+  border: 3px solid black;
+}
+.quality__text {
+  margin-right: 64px;
+}
+.quality__field {
+  padding: 32px 0;
+  text-align: left;
+}
+.button__learn-more {
+  margin-top: 32px;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 9999px;
+  background-color: rgb(100, 21, 255);
+  padding: 0.75rem 2rem;
+  color: rgb(247, 250, 252);
+}
+.white {
+  color: white;
+}
